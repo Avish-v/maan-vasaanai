@@ -1,0 +1,3 @@
+# SPA fallback for hosts that read _redirects (Netlify, Cloudflare Pages).
+# Without this, a hard refresh on /menu or /reservation returns 404.
+/*    /index.html   200
